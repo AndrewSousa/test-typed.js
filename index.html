@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Animated Typing</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/organico.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script src="typed.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".type").typed({
+				strings: [
+				"Hello world!!!","My name's Andrew","I'm a web front-end developer"
+				],
+				typeSpeed: 70,
+				backDelay: 200,
+				loop: true
+			})
+		})
+
+	</script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="linha">
+			<div class="doze colunas test">
+				<h3>Animated Typing with Typed.js, a simple jquery plugin...
+				</h3>
+				<h1><span class="type"></span></h1>	
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
